@@ -7,7 +7,7 @@ import Home from './components/Home'
 import AddProduct from './components/AddProduct'
 function App() {
   return (
-    <Router>
+    <Router basename="/Resume-Rocket">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/add-product" element={<AddProduct />} />
